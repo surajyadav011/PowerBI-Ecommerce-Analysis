@@ -103,10 +103,12 @@ Some key observations from the analysis:
 
 ---
 
+
 ## Dashboard Overview
 
 This dashboard provides insights into seller performance, delivery efficiency, and product reviews using Power BI.
-![Dashboard](Screenshot%20of%20dashboard.png)
+
+![Dashboard](dashboard.png)
 ---
 
 ## 📁 Repository Structure
