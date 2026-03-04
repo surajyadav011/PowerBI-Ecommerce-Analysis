@@ -1,101 +1,115 @@
-# E-Commerce Sales Analysis Dashboard (Power BI)
+# 📊 E-Commerce Sales Analysis Dashboard (Power BI)
 
-## Overview
+## 📌 Project Overview
 
-This project explores an e-commerce dataset using Power BI to understand sales performance, delivery efficiency, seller performance, and customer review behavior.
+This project analyzes an **e-commerce dataset using Power BI** to understand sales performance, delivery efficiency, seller performance, and customer review behavior.
 
-The goal of the dashboard is to provide a quick way to explore key business metrics and identify patterns in sales, logistics, and product performance.
+The goal of this dashboard is to transform raw transactional data into **actionable business insights** through data cleaning, modeling, and visualization.
 
-The project focuses on transforming raw data into useful insights through data cleaning, modeling, and visualization.
-
-## What This Dashboard Shows
-The dashboard highlights several areas of the business:
-
-* Seller performance and revenue contribution
-* Delivery time differences across states
-* Cities generating the highest sales
-* Product category performance
-* Relationship between product description length and customer review scores
-
-These insights help identify operational issues and opportunities for improvement in logistics and product presentation.
-
-## Tools Used
-
-* Power BI Desktop
-* Power Query (data cleaning and transformation)
-* DAX (calculated measures)
-* Data modeling
-* Interactive visualizations
-
-## Dataset
-
-The analysis uses a multi-table e-commerce dataset that includes information about:
-
-* Customers
-* Orders
-* Products
-* Sellers
-* Payments
-* Reviews
-
-The tables are connected using relationships to simulate a real transactional e-commerce system.
-
-## Data Preparation
-
-Before building the dashboard, the dataset was cleaned and prepared using Power Query.
-
-Main preparation steps included:
-
-* Handling missing values
-* Removing duplicates
-* Correcting data types
-* Creating delivery time calculations
-* Removing unnecessary columns
-* Standardizing column names
-
-These steps ensured the data was consistent and ready for analysis.
-
-## Dashboard Components
-
-### KPI Metrics
-
-* Average Delivery Time
-* Order Approval Time
-* Credit Card Payment Growth
-
-### Performance Analysis
-
-* Top sellers by revenue
-* Top cities by sales performance
-* Average delivery time by state
-
-### Geographic View
-
-* Freight value by seller state (map visualization)
-
-### Product Insights
-
-* Comparison between product description length and review score
-
-### Interactive Filters
-
-* Product category filter to explore category-specific insights
-
-## Key Observations
-
-* Some states experience noticeably longer delivery times, suggesting possible logistics delays.
-* A small number of sellers contribute a large share of total revenue.
-* Major cities such as São Paulo account for a large portion of sales activity.
-* Product descriptions with more detail tend to receive slightly better review scores.
+The dashboard enables quick exploration of key metrics related to **sales, logistics performance, and product quality.**
 
 ---
 
-## Dashboard Preview
+## 🎯 Business Questions
 
-Screenshot  of dashboard.png
+This dashboard helps answer important business questions such as:
 
-## Repository Structure
+- Which sellers generate the highest revenue?
+- Which states have the longest delivery times?
+- Which cities contribute the most to total sales?
+- How do product descriptions relate to customer review scores?
+- Which product categories perform best?
 
+---
+
+## 🛠 Tools Used
+
+- **Power BI Desktop**
+- **Power Query** (Data Cleaning & Transformation)
+- **DAX** (Calculated Measures)
+- **Data Modeling**
+- **Interactive Data Visualization**
+
+---
+
+## 📂 Dataset
+
+The project uses a **multi-table e-commerce dataset** containing information about:
+
+- Customers
+- Orders
+- Products
+- Sellers
+- Payments
+- Reviews
+
+These tables are connected using relationships to represent a **real-world e-commerce transactional system.**
+
+---
+
+## ⚙️ Data Preparation
+
+Before building the dashboard, the dataset was cleaned and transformed using **Power Query**.
+
+Key preparation steps included:
+
+- Handling missing values
+- Removing duplicate records
+- Correcting incorrect data types
+- Creating delivery time calculations
+- Removing unnecessary columns
+- Standardizing column names
+
+These transformations ensured the dataset was **accurate, consistent, and analysis-ready.**
+
+---
+
+## 📊 Dashboard Features
+
+### KPI Metrics
+
+- Average Delivery Time
+- Order Approval Time
+- Credit Card Payment Growth
+
+### Performance Analysis
+
+- Top sellers by revenue
+- Top cities by sales performance
+- Average delivery time by state
+
+### Geographic Analysis
+
+- Freight value by seller state (map visualization)
+
+### Product Insights
+
+- Relationship between product description length and customer review scores
+
+### Interactive Filters
+
+- Product category slicer for dynamic analysis
+
+---
+
+## 📈 Key Insights
+
+Some key observations from the analysis:
+
+- Certain states experience **longer delivery times**, indicating potential logistics inefficiencies.
+- A small number of sellers generate a **significant share of total revenue.**
+- Major cities such as **São Paulo dominate overall sales performance.**
+- Products with more detailed descriptions tend to receive **slightly higher review scores.**
+
+---
+
+## 🖥 Dashboard Preview
+
+![Dashboard](images/dashboard.png)
+
+---
+
+## 📁 Repository Structure
 project-folder/
 
 data/ → raw dataset files
@@ -105,56 +119,42 @@ README.md → project documentation
 
 ---
 
-## Purpose of This Project
-
-This project was created to practice and demonstrate:
-
-* Data cleaning and preparation
-* Building data models
-* Writing DAX measures
-* Designing clear and interactive dashboards
-
-It is part of a portfolio focused on data analysis and business intelligence using Power BI.
-
----
-
-## Running the Dashboard
+## 🚀 Running the Dashboard
 
 1. Download the `.pbix` file from this repository.
 2. Open the file using **Power BI Desktop**.
-3. Load the dataset if required.
-4. Use the filters and visuals to explore sales trends, delivery performance, and seller insights.
+3. Load the dataset if prompted.
+4. Use filters and visuals to explore sales performance and delivery metrics.
 
 ---
 
-## Skills Applied
+## 🎓 Skills Demonstrated
 
-This project involved several core data analysis tasks:
+This project demonstrates several important data analytics skills:
 
-* Cleaning and transforming raw data using Power Query
-* Building relationships between multiple tables
-* Creating calculated measures with DAX
-* Designing interactive dashboard visuals
-* Interpreting business metrics through data visualization
-
----
-
-## Possible Improvements
-
-Some ideas for extending this project in the future:
-
-* Add time-based sales trend analysis
-* Create more advanced DAX metrics for profitability
-* Include customer segmentation analysis
-* Expand the dashboard with additional KPIs
+- Data cleaning using Power Query
+- Building data models in Power BI
+- Writing analytical measures using DAX
+- Designing interactive dashboards
+- Interpreting business insights from data
 
 ---
 
-## Author
+## 🔮 Possible Improvements
 
-Suraj
-B.Tech (AIML)
+Future improvements could include:
+
+- Time-series sales trend analysis
+- Advanced profitability metrics using DAX
+- Customer segmentation analysis
+- Additional KPI metrics and forecasting
+
+---
+
+## 👨‍💻 Author
+
+**Suraj**  
+B.Tech AIML Student  
 Interested in Data Analytics, Machine Learning, and Data Engineering
 
-If you found this project useful or interesting, feel free to star the repository.
-
+If you found this project useful, feel free to ⭐ the repository.
