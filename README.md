@@ -92,7 +92,7 @@ These steps ensured the data was consistent and ready for analysis.
 
 ## Dashboard Preview
 
-![Dashboard](images/dashboard.png)
+Screenshot  of dashboard.png
 
 ## Repository Structure
 
