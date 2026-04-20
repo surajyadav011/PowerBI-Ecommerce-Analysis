@@ -1,6 +1,6 @@
-# 📊 E-Commerce Sales Analysis Dashboard (Power BI)
+#  E-Commerce Sales Analysis Dashboard (Power BI)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes an **e-commerce dataset using Power BI** to understand sales performance, delivery efficiency, seller performance, and customer review behavior.
 
@@ -10,7 +10,14 @@ The dashboard enables quick exploration of key metrics related to **sales, logis
 
 ---
 
-## 🎯 Business Questions
+## Dashboard Overview
+
+This dashboard provides insights into seller performance, delivery efficiency, and product reviews using Power BI.
+
+![Dashboard](dashboard/dashboard.png)
+
+---
+##  Business Questions
 
 This dashboard helps answer important business questions such as:
 
@@ -22,7 +29,7 @@ This dashboard helps answer important business questions such as:
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 - **Power BI Desktop**
 - **Power Query** (Data Cleaning & Transformation)
@@ -100,16 +107,6 @@ Some key observations from the analysis:
 - A small number of sellers generate a **significant share of total revenue.**
 - Major cities such as **São Paulo dominate overall sales performance.**
 - Products with more detailed descriptions tend to receive **slightly higher review scores.**
-
----
-
-
-## Dashboard Overview
-
-This dashboard provides insights into seller performance, delivery efficiency, and product reviews using Power BI.
-
-![Dashboard](dashboard.png)
----
 
 ## 📁 Repository Structure
 project-folder/
